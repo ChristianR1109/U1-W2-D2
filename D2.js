@@ -232,6 +232,6 @@ prova.push(1, 2, 3, 4, 5, 6, 7, 8, 9, 10);
 
 const lastindex = prova.length - 1;
 
-prova.slice(lastindex, 1, 100);
+prova.splice(lastindex, 1, 100);
 
 console.log(prova);
