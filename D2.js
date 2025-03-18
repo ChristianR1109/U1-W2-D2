@@ -205,14 +205,33 @@ console.log(me);
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 
+/*const me = {
+  name: "John",
+  lastName: "Doe",
+  skills: ["javascript", "html", "css"],
+};
+
+me.skills.pop();
+console.log(me);
 /* ESERCIZIO 14
   Scrivi del codice per creare un array inizialmente vuoto. Riempilo successivamente con i numeri da 1 a 10.
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
+/*const prova = [];
+prova.push(1, 2, 3, 4, 5, 6, 7, 8, 9, 10);
+console.log(prova);
 
 /* ESERCIZIO 15
   Scrivi del codice per sostituire l'ultimo elemento dell'array, ovvero il valore 10, con il valore 100.
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
+let prova = [];
+prova.push(1, 2, 3, 4, 5, 6, 7, 8, 9, 10);
+
+const lastindex = prova.length - 1;
+
+prova.slice(lastindex, 1, 100);
+
+console.log(prova);
